@@ -1,0 +1,6 @@
+from Car import Car 
+def jump(car): 
+    car.steer(0.0)   
+    car.gas(1.0) 
+car = Car()  
+jump(car)
