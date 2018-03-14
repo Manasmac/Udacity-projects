@@ -1,0 +1,10 @@
+from Car import Car
+import time
+
+def circle(car):
+    car.steer(4.7)
+    car.gas(0.5)
+    
+car = Car()
+
+circle(car)
